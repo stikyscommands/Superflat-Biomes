@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "superflatbiomes",
+  "version": "${version}",
+
+  "name": "Superflat Biomes",
+  "description": "This mod lets you create superflat worlds with biomes! Great for superflat survival!",
+  "authors": [
+    "Stiky"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/superflatbiomes/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.superflat.biomes.SuperflatBiomes"
+    ]
+  },
+  "mixins": [
+    "superflatbiomes.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

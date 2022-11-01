@@ -1,0 +1,21 @@
+{
+    "replace": true,
+    "values": [
+        "#base_stone_overworld",
+        "#base_stone_nether",
+        "dirt",
+        "#nylium",
+        "#sand",
+        "#terracotta",
+        "gravel",
+        "soul_sand",
+        "soul_soil",
+        "calcite",
+        "smooth_basalt",
+        "clay",
+        "dripstone_block",
+        "end_stone",
+        "red_sandstone",
+        "sandstone"
+    ]
+}
